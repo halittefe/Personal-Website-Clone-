@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Halit Efe Tanrıkulu | Web Developer</title>
+    <meta name="keywords" content="Html,CSS,JavaScript,React" />
+    <meta name="description" content="Halit Efe Tanrıkulu | Web Developer" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Oswald:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- Tablet -->
+    <link rel="stylesheet" media="(max-width:850px)" href="css/tablet.css" />
+    <!-- Mobile -->
+    <link rel="stylesheet" media="(max-width:531px)" href="css/mobile.css" />
+  </head>
+  <body>
+    <header class="bg-dark-blue">
+      <div class="container">
+        <nav id="navbar">
+          <h1 class="heading-small">Halit Efe TANRIKULU</h1>
+          <ul>
+            <li><a href="#home">Ana Menü</a></li>
+            <li><a href="#about-me">Hakkımda</a></li>
+            <li><a href="#contact">İletişim</a></li>
+            <li><a href="#blog">Blog</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="home">
+      <img src="./images/gitarlihalit.jpeg" alt="Halit Efe Tanrıkulu" />
+      <div class="name text-center">
+        <h2 class="heading-big">Halit Efe Tanrıkulu</h2>
+        <p>Web Developer | Front-End Developer</p>
+      </div>
+      <a href="#hakkımda" class="btn btn-primary">Ben Kimim ?</a>
+    </section>
+
+    <section id="about-me" class="bg-dark-blue">
+      <h3 class="text-center heading heading-big">Hakkımda</h3>
+      <div class="items">
+        <article class="item">
+          <i class="fa fa-pencil-alt"></i>
+          <h3 class="">Neden Web ?</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+            accusamus illo nostrum vitae maiores nobis ad repellendus corporis
+            doloremque sequi!
+          </p>
+        </article>
+        <article class="item">
+          <i class="fa fa-pencil-alt"></i>
+          <h3>DOAL Games</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique,
+            ducimus.
+          </p>
+        </article>
+        <article class="item">
+          <i class="fa fa-pencil-alt"></i>
+          <h3>Hoopsbasket</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique,
+            ducimus.
+          </p>
+        </article>
+      </div>
+    </section>
+    <section id="courses">
+      <h3 class="text-center heading-medium">Eğitimler</h3>
+      <div class="container">
+        <div class="courses">
+          <div class="course">
+            <div class="course-image">
+              <img src="./images/front-end.jpg" alt="front-end" />
+              <span>%90 İndirim</span>
+            </div>
+            <div class="course-info">
+              <div class="title">Komple Front-End Kursu</div>
+              <div class="description">
+                Komple Front-End Kursu | Sıfırdan Front-End Öğrenin
+              </div>
+              <div class="instructor">Halit Efe Tanrıkulu</div>
+              <div class="rating">4.4 | (345 Oylama)</div>
+            </div>
+          </div>
+          <div class="course">
+            <div class="course-image">
+              <img src="./images/back-end1.jpg" alt="front-end" />
+              <span>%90 İndirim</span>
+            </div>
+            <div class="course-info">
+              <div class="title">Komple Back-End Kursu</div>
+              <div class="description">
+                Komple Back-End Kursu | Sıfırdan Back-End Öğrenin
+              </div>
+              <div class="instructor">Halit Efe Tanrıkulu</div>
+              <div class="rating">4.1 | (289 Oylama)</div>
+            </div>
+          </div>
+          <div class="course">
+            <div class="course-image">
+              <img src="./images/gamedev.png" alt="front-end" />
+              <span>%90 İndirim</span>
+            </div>
+            <div class="course-info">
+              <div class="title">Komple Game Development Kursu</div>
+              <div class="description">
+                Komple Game Development Kursu | Sıfırdan Game Development
+                Öğrenin
+              </div>
+              <div class="instructor">Halit Efe Tanrıkulu</div>
+              <div class="rating">4.6 | (988 Oylama)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="contact" class="bg-dark-blue">
+      <div class="contact-form">
+        <form>
+          <h4 class="text-center heading-medium">Bana Ulaşın</h4>
+          <div class="form-group">
+            <label for="name">İsim</label>
+            <input
+              type="text"
+              class="form-control"
+              name="name"
+              id="name"
+              placeholder="İsim"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="text"
+              class="form-control"
+              name="email"
+              id="email"
+              placeholder="Email"
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Mesaj</label>
+            <textarea
+              name="message"
+              id="message"
+              class="form-control"
+              rows="5"
+              placeholder="Mesajınız..."
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-block">Gönder</button>
+        </form>
+        <ul>
+          <li>
+            <a href="#"> <i class="fab fa-facebook"> </i> </a>
+          </li>
+          <li>
+            <a href="#"> <i class="fab fa-twitter"> </i> </a>
+          </li>
+          <li>
+            <a href="#"> <i class="fab fa-instagram"> </i> </a>
+          </li>
+          <li>
+            <a href="#"> <i class="fab fa-linkedin"> </i> </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
